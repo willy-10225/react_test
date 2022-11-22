@@ -25,7 +25,17 @@
 import React from "react";
 class App extends React.Component{
     render(){
-        return <div>hello react Component</div>
+        return (
+        <section>
+            hello react Component
+            <ul>
+                <li>1111</li>
+                <li>2222</li>
+            </ul>
+            <div>新的內容111</div>
+            <div>新的內容22222</div>
+        </section>
+        )
     }
 }
 
